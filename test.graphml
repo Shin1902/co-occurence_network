@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="fontcolor" attr.type="string" for="edge" id="d9"/>
+<key attr.name="fontsize" attr.type="long" for="edge" id="d8"/>
+<key attr.name="style" attr.type="string" for="edge" id="d7"/>
+<key attr.name="weight" attr.type="double" for="edge" id="d6"/>
+<key attr.name="label" attr.type="string" for="edge" id="d5"/>
+<key attr.name="fontcolor" attr.type="string" for="node" id="d4"/>
+<key attr.name="color" attr.type="string" for="node" id="d3"/>
+<key attr.name="shape" attr.type="string" for="node" id="d2"/>
+<key attr.name="fillcolor" attr.type="string" for="node" id="d1"/>
+<key attr.name="style" attr.type="string" for="node" id="d0"/>
+<graph edgedefault="undirected"><node id="ノード1">
+  <data key="d0">solid,filled</data>
+  <data key="d1">#ccccff</data>
+  <data key="d2">egg</data>
+</node>
+<node id="ノード2">
+  <data key="d3">#ff9999</data>
+  <data key="d4">red</data>
+</node>
+<edge source="ノード1" target="ノード2">
+  <data key="d5">エッジ</data>
+  <data key="d6">0.2</data>
+  <data key="d7">dotted</data>
+  <data key="d8">10</data>
+  <data key="d9">#00cc66</data>
+</edge>
+</graph></graphml>
